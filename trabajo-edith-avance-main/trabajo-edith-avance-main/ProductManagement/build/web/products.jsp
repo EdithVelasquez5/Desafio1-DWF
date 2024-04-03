@@ -86,7 +86,7 @@
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, Eliminar el producto!'
+            confirmButtonText: 'Si, Eliminar el producto!'
         }).then((result) => {
             if (result.isConfirmed) {
                 var form = document.createElement("form");
